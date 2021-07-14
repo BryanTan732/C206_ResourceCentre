@@ -29,6 +29,7 @@ public class ResourceCentreTest {
 
 		camcorderList= new ArrayList<Camcorder>();
 		chromebookList= new ArrayList<Chromebook>();
+		
 	}
 
 	
@@ -51,7 +52,7 @@ public class ResourceCentreTest {
 	@Test
 	public void testAddChromebook() {
 		//fail("Not yet implemented");
-		// write your code here
+		
 	}
 	
 	@Test
