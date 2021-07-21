@@ -27,8 +27,14 @@ public class ResourceCentreTest {
 		cb1 = new Chromebook("CB0011", "My Google Chromebook 1st", "Mac OS");
 		cb2 = new Chromebook("CB0012", "SAMSUNG Chromebook 4+", "Win 10");
 
+<<<<<<< HEAD
 		camcorderList = new ArrayList<Camcorder>();
 		chromebookList = new ArrayList<Chromebook>();
+=======
+		camcorderList= new ArrayList<Camcorder>();
+		chromebookList= new ArrayList<Chromebook>();
+		
+>>>>>>> branch 'master' of https://github.com/BryanTan732/C206_ResourceCentre.git
 	}
 
 	@Test
@@ -50,6 +56,7 @@ public class ResourceCentreTest {
 
 	@Test
 	public void testAddChromebook() {
+<<<<<<< HEAD
 		// fail("Not yet implemented");
 		// write your code here
 		// Item list is not null, so that can add a new item
@@ -65,6 +72,10 @@ public class ResourceCentreTest {
 		// Add another item. test The size of the list is 2?
 		ResourceCentre.addChromebook(chromebookList, cb2);
 		assertEquals("Test that Camcorder arraylist size is 2?", 2, chromebookList.size());
+=======
+		//fail("Not yet implemented");
+		
+>>>>>>> branch 'master' of https://github.com/BryanTan732/C206_ResourceCentre.git
 	}
 
 	@Test

@@ -196,9 +196,13 @@ public class ResourceCentre {
 	}
 
 	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
+<<<<<<< HEAD
 		// write your code here
 		chromebookList.add(cb);
 		System.out.println("Chromebook added");
+=======
+		
+>>>>>>> branch 'master' of https://github.com/BryanTan732/C206_ResourceCentre.git
 	}
 
 	// ================================= Option 3 Loan an item (CRUD - Update)
